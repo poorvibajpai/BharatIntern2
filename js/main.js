@@ -1,6 +1,7 @@
 const tabItems = document.querySelectorAll(".tab-item");
 const tabContentItems = document.querySelectorAll(".tab-content-item");
 
+// Select tab conten
 function selectItem(e) {
   removeBorder();
   removeShow();
